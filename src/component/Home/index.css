@@ -1,0 +1,84 @@
+.app-container {
+  background-color: #f0fafc;
+  padding: 35px;
+  padding-left: 55px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.left-container {
+  width: 50%;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 80%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #f0fafc;
+  width: 200px;
+  margin: 30px;
+  margin-left: 0px;
+  padding: 10px;
+  box-shadow: 0px 4px 16px 0px #c8baff;
+  cursor: pointer;
+}
+.heading {
+  color: #000000;
+  font-size: 24px;
+  text-align: start;
+}
+
+.smileIcon {
+  height: 43px;
+  width: 43px;
+  padding-top: 15px;
+}
+.card-description {
+  font-weight: 500;
+}
+
+.downloadButton {
+  background-color: #4a068a;
+  color: #ffffff;
+  height: 45px;
+  width: 200px;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  border-radius: 8px;
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.buttons-container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.partnerImage {
+  height: 46px;
+  width: 200px;
+}
+.partnerButton {
+  background-color: transparent;
+  border-width: 0px;
+}
+.requestForm-container {
+  width: 40%;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #c8baff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}

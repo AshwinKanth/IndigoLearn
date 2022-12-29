@@ -1,0 +1,32 @@
+.placements-container {
+  background-color: #ede1f5;
+  padding-left: 60px;
+  padding-right: 50px;
+}
+.placement-heading {
+  font-size: 26px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.placement-description {
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
+.placementBottom-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #e4edf2;
+  margin-top: 15px;
+  padding: 40px;
+}
+.placementBottom-heading {
+  font-size: 29px;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+
+.placementBottom-description {
+  font-size: 19px;
+  padding-bottom: 45px;
+}

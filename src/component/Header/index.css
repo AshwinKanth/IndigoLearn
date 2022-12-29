@@ -1,0 +1,67 @@
+.nav-container {
+  background-color: #4a068a;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navLinks-container {
+  display: flex;
+  flex-direction: row;
+}
+.navLink {
+  list-style: none;
+  color: #ffffff;
+  padding-right: 50px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.websiteName {
+  font-size: 20px;
+  color: #ffffff;
+  padding-left: 15px;
+  cursor: pointer;
+}
+.button-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 7px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.loginButton {
+  font-size: 13px;
+  color: #4a068a;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  background-color: #ffffff;
+  padding-left: 10px;
+}
+.menu-icon {
+  height: 25px;
+  width: 25px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.userIcon {
+  height: 17px;
+  width: 17px;
+}
+
+.mobile-navLink {
+  padding-bottom: 15px;
+}
